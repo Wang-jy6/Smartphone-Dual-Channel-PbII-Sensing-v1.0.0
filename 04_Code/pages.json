@@ -1,0 +1,35 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "Image Analyzer"
+			}
+		},
+		{
+			"path": "pages/result/result",
+			"style": {
+				"navigationBarTitleText": "Concentration Calculation"
+			}
+		},
+		{
+			"path": "pages/standard/standard",
+			"style": {
+				"navigationBarTitleText": "Standard Curve Setup"
+			}
+		},
+		{
+			"path": "pages/history-data/history-data",
+			"style": {
+				"navigationBarTitleText": "History Data"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "JAT",
+		"navigationBarBackgroundColor": "#EAF6ED",
+		"backgroundColor": "#EAF6ED"
+	},
+	"uniIdRouter": {}
+}

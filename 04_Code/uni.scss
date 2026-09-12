@@ -1,0 +1,246 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+
+/* 颜色变量 */
+
+/* 行为相关颜色 */
+$uni-color-primary: #007aff;
+$uni-color-success: #4cd964;
+$uni-color-warning: #f0ad4e;
+$uni-color-error: #dd524d;
+
+/* 文字基本颜色 */
+$uni-text-color:#333;//基本色
+$uni-text-color-inverse:#fff;//反色
+$uni-text-color-grey:#999;//辅助灰色，如加载更多的提示信息
+$uni-text-color-placeholder: #808080;
+$uni-text-color-disable:#c0c0c0;
+
+/* 背景颜色 */
+$uni-bg-color:#ffffff;
+$uni-bg-color-grey:#f8f8f8;
+$uni-bg-color-hover:#f1f1f1;//点击状态颜色
+$uni-bg-color-mask:rgba(0, 0, 0, 0.4);//遮罩颜色
+
+/* 边框颜色 */
+$uni-border-color:#c8c7cc;
+
+/* 尺寸变量 */
+
+/* 文字尺寸 */
+$uni-font-size-sm:12px;
+$uni-font-size-base:14px;
+$uni-font-size-lg:16px;
+
+/* 图片尺寸 */
+$uni-img-size-sm:20px;
+$uni-img-size-base:26px;
+$uni-img-size-lg:40px;
+
+/* Border Radius */
+$uni-border-radius-sm: 2px;
+$uni-border-radius-base: 3px;
+$uni-border-radius-lg: 6px;
+$uni-border-radius-circle: 50%;
+
+/* 水平间距 */
+$uni-spacing-row-sm: 5px;
+$uni-spacing-row-base: 10px;
+$uni-spacing-row-lg: 15px;
+
+/* 垂直间距 */
+$uni-spacing-col-sm: 4px;
+$uni-spacing-col-base: 8px;
+$uni-spacing-col-lg: 12px;
+
+/* 透明度 */
+$uni-opacity-disabled: 0.3; // 组件禁用态的透明度
+
+/* 文章场景相关 */
+$uni-color-title: #2C405A; // 文章标题颜色
+$uni-font-size-title:20px;
+$uni-color-subtitle: #555555; // 二级标题颜色
+$uni-font-size-subtitle:26px;
+$uni-color-paragraph: #3F536E; // 文章段落颜色
+$uni-font-size-paragraph:15px;
+
+/* ====== JAT 全局样式（注入到所有页面）====== */
+page, .container {
+  font-family: "PingFang SC","Microsoft YaHei",Arial,sans-serif;
+  color: #2E3A2B;
+  line-height: 1.5em;
+  padding: 24rpx;
+  background-color: #EAF6ED;
+  box-sizing: border-box;
+  margin: 0;
+}
+.big-title {
+  font-size: 36rpx !important;
+  font-weight: 600;
+  color: #355E3B;
+  margin-bottom: 24rpx;
+}
+.medium-title {
+  font-size: 28rpx;
+  font-weight: 500;
+  color: #356A48;
+  margin-bottom: 16rpx;
+}
+.section-title {
+  font-size: 24rpx;
+  font-weight: 500;
+  color: #2E3A2B;
+  margin: 16rpx 0 8rpx;
+}
+.text-base {
+  font-size: 24rpx;
+  color: #2E3A2B;
+}
+.text-sub {
+  font-size: 20rpx;
+  color: #5C6B5A;
+}
+.caption {
+  font-size: 18rpx;
+  color: #7A8A79;
+}
+.card {
+  background: #F0FBF4;
+  border-radius: 32rpx;
+  box-shadow: 0 4rpx 16rpx rgba(106,166,105,0.2);
+  padding: 32rpx;
+  margin-bottom: 32rpx;
+}
+.button-main {
+  display: block;
+  width: 100%;
+  font-size: 24rpx !important;
+  font-weight: 500;
+  color: #FFFFFF !important;
+  background: linear-gradient(90deg,#A3D9A5,#70B774);
+  border: none;
+  border-radius: 32rpx;
+  height: 64rpx;
+  line-height: 64rpx;
+  margin: 24rpx 0 !important;
+  box-shadow: 0 6rpx 20rpx rgba(112,183,116,0.3);
+}
+.button-main:active { opacity: 0.9; }
+.button-mini {
+  font-size: 20rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  border-radius: 28rpx;
+  padding: 0 20rpx;
+  background: linear-gradient(90deg,#A3D9A5,#70B774);
+  color: #fff !important;
+  border: none;
+}
+input, .picker, .unit-input {
+  font-size: 24rpx;
+  color: #2E3A2B;
+  border: 1rpx solid #CDE7CD;
+  border-radius: 24rpx;
+  padding: 0 20rpx;
+  height: 64rpx;
+  background: #FFFFFF;
+  margin-bottom: 16rpx;
+  box-sizing: border-box;
+}
+input:focus, .picker:focus { border-color: #70B774; }
+.std-row, .ratio-row, .table-header, .switch-btn-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16rpx;
+}
+.table-header {
+  font-size: 24rpx;
+  font-weight: 500;
+  border-bottom: 1rpx solid #CDE7CD;
+  padding-bottom: 8rpx;
+  margin-bottom: 16rpx;
+}
+.index-canvas-wrapper {
+  position: relative;
+  width: 100%;
+  padding-top: 100%;
+  background: #FFFFFF;
+  border-radius: 16rpx;
+  box-shadow: 0 4rpx 16rpx rgba(106,166,105,0.2);
+  margin-bottom: 16rpx;
+}
+.index-canvas, canvas[canvas-id="imgCanvas"] {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+.switch-btn {
+  flex: 1;
+  height: 64rpx;
+  margin: 0 8rpx;
+  background: #E6F8E9;
+  color: #2E3A2B;
+  border-radius: 32rpx;
+  font-size: 24rpx;
+  font-weight: 500;
+  box-shadow: 0 4rpx 12rpx rgba(106,166,105,0.2);
+  border: 2rpx solid transparent;
+  text-align: center;
+  line-height: 64rpx;
+}
+.btn-active-exp {
+  background: #CDE7CD;
+  color: #356A48;
+  border: 2rpx solid #A3D9A5;
+}
+.btn-active-ctrl {
+  background: #CDE7CD;
+  color: #356A48;
+  border: 2rpx solid #70B774;
+}
+.image-upload { text-align: center; margin: 24rpx 0; }
+.empty {
+  text-align: center;
+  color: #7A8A79;
+  margin-top: 200rpx;
+}
+.preview-img {
+  display: block;
+  width: 100%;
+  margin-top: 16rpx;
+  border-radius: 14rpx;
+}
+.rich-formula {
+  font-size: 28rpx;
+  font-weight: 600;
+  color: #356A48;
+}
+.rich-r2 {
+  font-size: 26rpx;
+  font-weight: 500;
+  color: #d21b3d;
+  margin-top: 8rpx;
+}
+.list { margin-top: 16rpx; }
+.item { margin-bottom: 16rpx; }
+.button-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+}

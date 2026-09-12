@@ -1,0 +1,32 @@
+# Generated application output
+**/unpackage/
+**/dist/
+**/build/
+**/node_modules/
+
+# IDE and local project settings
+**/.hbuilderx/
+*.code-workspace
+.vscode/
+.idea/
+project.config.json
+project.private.config.json
+
+# Local archives and authoring files not intended for release
+04_Code/源代码.docx
+.codex_tmp/
+
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Temporary and operating-system files
+*.bak
+*.log
+*.tmp
+~$*
+.DS_Store
+Thumbs.db

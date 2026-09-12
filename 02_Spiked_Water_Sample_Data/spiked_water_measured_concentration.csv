@@ -1,0 +1,13 @@
+sample,pb_ii_added_uM,measured_value_1_uM,measured_value_2_uM,measured_value_3_uM,measured_value_4_uM,measured_value_5_uM,measured_mean_uM,measured_sd_uM,source_sheet,source_row
+Lake water,0.4,0.44,0.46,0.4,0.4,0.4,0.42,0.02828427,Sheet1,18
+Lake water,10,10.11,10.12,11.62,9.47,10.33,10.33,0.78996835,Sheet1,19
+Lake water,40,39.4,41.3,41.6,38.2,40.35,40.17,1.39892816,Sheet1,20
+River water,0.4,0.37,0.33,0.47,0.43,0.5,0.42,0.07,Sheet1,21
+River water,10,10.14,11.29,9.69,11.29,10.04,10.49,0.7491662,Sheet1,22
+River water,40,39.23,41.5,39.84,39.84,39.84,40.05,0.85252566,Sheet1,23
+Domestic sewage,0.4,0.75,0.73,0.73,0.57,0.67,0.69,0.07348469,Sheet1,24
+Domestic sewage,10,9.44,12.32,11.18,12.33,11.43,11.34,1.1815456,Sheet1,25
+Domestic sewage,40,44.71,41.46,40.22,39.29,41.47,41.43,2.04967071,Sheet1,26
+Industrial wastewater,0.4,2.11,2.24,1.89,2.1,2.31,2.13,0.16077935,Sheet1,27
+Industrial wastewater,10,12.36,13.06,13.02,14.23,11.73,12.88,0.9310478,Sheet1,28
+Industrial wastewater,40,45.16,46.81,39.39,44,37.24,42.52,4.03854553,Sheet1,29
