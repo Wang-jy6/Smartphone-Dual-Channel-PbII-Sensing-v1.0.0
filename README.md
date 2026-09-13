@@ -14,7 +14,7 @@ The repository contains the underlying calibration data, Pb(II)-spiked water-sam
 | `02_Spiked_Water_Sample_Data` | Replicate-level data obtained from Pb(II)-spiked lake water, river water, domestic sewage, and industrial wastewater samples. |
 | `03_Representative_Raw_Images` | Representative original smartphone images acquired at selected Pb(II) concentrations and in wastewater matrices. |
 | `04_Analysis_Code` | Source code used for image processing, signal extraction, calibration, and concentration calculation. |
-| `05_Device_Files` | Device-design files in native SolidWorks format and neutral STEP/STL formats. |
+| `05_Device_Files` | Device-design files in native SolidWorks format. |
 
 ## Calibration data
 
@@ -29,8 +29,6 @@ All water samples used for Pb(II) determination were filtered through a 0.45 μm
 ## Representative raw images
 
 Representative original smartphone images are provided for selected Pb(II) concentrations in the 405 nm direct-scattering and 520 nm indirect-absorbance channels, together with representative industrial wastewater images.
-
-The smartphone ISO, exposure, and white-balance settings were controlled automatically during image acquisition. The calibration equations are specific to the smartphone and optical configuration used in this study.
 
 ## Device files
 
